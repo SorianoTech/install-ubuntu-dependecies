@@ -1,5 +1,5 @@
 # install-ubuntu-dependecies
-Script to install all necesary dependencias after installing ubuntu in your computer
+Script to install all necessary dependencies after installing ubuntu in your computer
 
 #Instructions
 
