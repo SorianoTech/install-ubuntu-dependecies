@@ -22,7 +22,7 @@ sudo add-apt-repository -y ppa:tualatrix/ppa
 # | Update sources                                                     |
 # ----------------------------------------------------------------------
 
-sudo apt-get -y update
+sudo apt-get -y update && upgrade
 
 
 # ----------------------------------------------------------------------
@@ -35,3 +35,7 @@ sudo apt-get -y install \
   ubuntu-tweak \
   ruby
 # .. other apps
+
+#Open VPN and Plugin for networkManager
+sudo apt-get install network-manager-openvpn-gnome openvpn
+
