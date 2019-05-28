@@ -40,3 +40,7 @@ sudo apt-get -y install \
 sudo apt-get install network-manager-openvpn-gnome openvpn
 sudo apt-get install net-tools
 
+#screen tool 
+sudo apt-get install screen
+
+
