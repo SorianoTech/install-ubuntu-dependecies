@@ -38,4 +38,5 @@ sudo apt-get -y install \
 
 #Open VPN and Plugin for networkManager
 sudo apt-get install network-manager-openvpn-gnome openvpn
+sudo apt-get install net-tools
 
