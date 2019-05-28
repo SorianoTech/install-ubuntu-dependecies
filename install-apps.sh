@@ -43,4 +43,8 @@ sudo apt-get install net-tools
 #screen tool 
 sudo apt-get install screen
 
+#Download docker script and install
+curl -fsSL https://get.docker.com -o get-docker.sh
+chmod +x get-docker.sh
+./get-docker.sh
 
