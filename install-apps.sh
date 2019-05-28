@@ -33,15 +33,17 @@ sudo apt-get -y install \
   nautilus-dropbox \
   google-chrome-stable \
   ubuntu-tweak \
-  ruby
+  ruby \
+  git
 # .. other apps
 
+
 #Open VPN and Plugin for networkManager
-sudo apt-get install network-manager-openvpn-gnome openvpn
-sudo apt-get install net-tools
+sudo apt-get -y install network-manager-openvpn-gnome openvpn
+sudo apt-get -y install net-tools
 
 #screen tool 
-sudo apt-get install screen
+sudo apt-get -y install screen
 
 #Download docker script and install
 curl -fsSL https://get.docker.com -o get-docker.sh
