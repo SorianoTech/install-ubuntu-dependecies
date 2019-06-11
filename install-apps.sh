@@ -44,9 +44,13 @@ sudo apt-get -y install net-tools
 
 #screen tool 
 sudo apt-get -y install screen
+sudo apt install flameshot #software to take screenshot and arrows
+
 
 #Download docker script and install
 curl -fsSL https://get.docker.com -o get-docker.sh
 chmod +x get-docker.sh
 ./get-docker.sh
+
+
 
